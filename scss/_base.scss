@@ -1,11 +1,13 @@
 /* Base.scss */
 body {
     background-color: $background-color;
+    box-sizing: border-box;
     color: $color;
     @include body-font-light;
     font-size: $base-font-size;
     margin: 0 auto;
     max-width: 600px;
+    padding: 0 10px;
     width: 100%;
 }
 
