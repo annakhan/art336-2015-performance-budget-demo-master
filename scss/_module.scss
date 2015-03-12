@@ -35,3 +35,12 @@ section h1 {
 .cafe-location h2, .food-location h2, .attractions-locations h2 {
     font-size: em(44px);
 }
+
+h1 a, h2 a {
+    color: $logo-color;
+    transition: color 300ms linear;
+    &:hover {
+        color: darken($logo-color,8%);
+        transition: color 300ms linear;
+    }
+}
